@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+p {
+	color: midnightblue;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 16px;
+	line-height: 18px;
+	width: 600px;
+	background-color: ghostwhite;
+	padding: 20px;
+}
+.paragraf_2 {color:darkcyan; background-color: rgba(255, 255, 255, 0.5)}
+.novi_blok 	{
+	background-color: rgba(72,164,192,1.00);
+	padding: 20px;
+	margin:20px;
+	width:50%;
+}
+
+h2 {
+	color:darkslategray;
+}
+span {
+	color:rgba(0,147,255,1.00) ;
+}
+
+.pozadina {
+	background-image: url("slike/pozadina.jpg");
+	background-color: rgba(150,185,220,1.00);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+.drugapozadina {
+	background-color: rgba(113,168,199,1.00);
+}
+
+a {
+	color:ghostwhite;
+	background-color: rgba(113,168,199,1.00);
+	padding: 10px;
+	line-height: 20px;
+	border: solid rgba(4,51,107,0.5);
+	text-transform: uppercase;
+	
+}
+a:hover{
+	background-color: rgba(113,168,199,1.00);
+}
+
+a:active {background-color:ghostwhite;}
+
+
+img {
+	height: 200px;
+}
+
+
+h1 {
+	color:darkslategray;
+    font-family: "MatijaHrgetic";
+    src:url("MatijaHrgetic.ttf"); 
+	}
+	
+
+
+ul {	
+			padding:40px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 600px;
+			} 
+	li {	display:inline; 
+			padding:40px;
+		}
+		
+	li a {	color:ghostwhite; 
+			font-family: "CabinSketch", sans-serif; 
+			
+			text-transform: uppercase;
+			}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;}
